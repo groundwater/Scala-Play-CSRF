@@ -1,0 +1,33 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;}
+html{
+    height:100%;
+}
+body{ 
+    background: #aaf; 
+    height:100%; 
+}
+h1 {
+    font-size:36pt;
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:25px;
+}
+
+#content { 
+    margin:0 auto;
+    padding: 25px 50px;
+    width:600px;
+    background:white;
+    height:100%;
+    font-family:helvetica;
+}
+#menu {
+    float:left;
+    border:1px solid black;
+    border-radius:5px;
+    padding:10px;
+    width:150px;
+}
+#menu ol, #menu li {
+    list-style:none;
+}

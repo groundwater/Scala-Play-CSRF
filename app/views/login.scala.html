@@ -1,0 +1,8 @@
+@(key: String)
+<h1>Please Log In</h1>
+<form id="form-login" action="/login" method="POST">
+    <input type="text"     name="userid"   />
+    <input type="password" name="password" />
+    <input type="submit"   name="submit"   value="Loging"/>
+    <input type="hidden"   name="sessionkey" value="@key"/>
+</form>
